@@ -1,4 +1,4 @@
-## Check the exam (requirements)
+## Check the exam
 <p align="justify">
 The first input array is the key to the correct answers to an exam,   
 like ["a", "a", "b", "d"]. 
@@ -17,7 +17,9 @@ For example:
     > checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]) → 0
 
 <br/>
-To test the solution, type from the CLI the following command:
+To test the solution, type from the CLI the following command: 
+    <br/> <br/>    
+
 
     > python tests.py
 
