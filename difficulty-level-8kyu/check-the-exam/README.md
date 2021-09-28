@@ -17,7 +17,7 @@ For example:
     > checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]) → 0
 
 <br/>
-To test the solution, type from the CLI the following command: 
+To test the solution, type from the CLI: 
     <br/> <br/>    
 
 
