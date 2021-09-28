@@ -12,7 +12,7 @@ unique_in_order('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 unique_in_order([1,2,2,3,3])       == [1,2,3]
 ```
 <br/>
-To test the solution, type from the CLI the following command: <br/><br/>
+To test the solution, type from the CLI: <br/><br/>
     
     > python tests.py
 
