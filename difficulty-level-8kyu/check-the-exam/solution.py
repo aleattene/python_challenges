@@ -1,6 +1,6 @@
 """
 Python solution for challenge: "Check the exam"
-To start the tests, type from CLI: python tests-.py
+To start the tests, type from CLI: python tests.py
 """
 
 
