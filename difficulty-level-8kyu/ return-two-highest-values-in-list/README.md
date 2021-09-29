@@ -15,7 +15,7 @@ For example:
 ```
 <br/>
 To test the solution, type from the CLI: 
-<br/>
+<br/><br/>
 
     > python tests.py
 
