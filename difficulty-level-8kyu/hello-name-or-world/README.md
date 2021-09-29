@@ -1,4 +1,4 @@
-## Check the exam
+## Hello, Name or World!
 <p align="justify">
     
 Define a method `hello`  that `returns` "Hello, Name!" to a given `name`, or says Hello, World! if name is not given (or passed as an empty String). <br/>
