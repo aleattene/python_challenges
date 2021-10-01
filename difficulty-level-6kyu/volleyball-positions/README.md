@@ -1,7 +1,7 @@
 ## Volleyball Positions 🏐  
 
 <p align="justify">  
-You are watching a volleyball tournament, but you missed the beginning of the very first game of your favorite team. Now you're curious about how the coach arranged the players on the field at the start of the game. <br/>
+You are watching a volleyball tournament, but you missed the beginning of the very first game of your favorite team. Now you're curious about how the coach arranged the players on the field at the start of the game. <br/><br/>
 The team you favor plays in the following formation:
 
 ``` ruby
@@ -10,16 +10,16 @@ The team you favor plays in the following formation:
 0 6 0
 5 0 1
 ```
-
+<p align="justify"> 
 where positive numbers represent positions occupied by players. After the team gains the serve, its members rotate one position in a clockwise direction, so the player in position 2 moves to position 1, the player in position 3 moves to position 2, and so on, with the player in position 1 moving to position 6.
-
+<br/><br/>
 Here's how the players change their positions:
 
-IMAGE
+![image](https://user-images.githubusercontent.com/74595044/135637046-8f38f8f7-b41b-4533-bd01-82f429b56e68.png)
+	
+Given the current  `formation`  of the team and the number of times  `k`  it gained the serve, find the  `initial position`  of each player in it. <br/><br/>
 
-Given the current  `formation`  of the team and the number of times  `k`  it gained the serve, find the  `initial position`  of each player in it.
-
-## Example
+### Example
 
 For
 ``` ruby
@@ -59,7 +59,7 @@ the output should be
     ["Eve",   "empty", "Frank"]
 ]
 ```
-
+<br/><br/>
 ### Input
 
 -   2D string array  `formation`
@@ -76,7 +76,8 @@ the output should be
     
     Constraints:  `0 ≤ k ≤ 1000000000.`
     
-
+<br/>
+	
 ### Output
 
 -   2D string array
@@ -89,7 +90,6 @@ the output should be
 
 ## Test
 To test the solution, type from the CLI:   
-<br/><br/>  
 	
 	> python tests.py  
 
