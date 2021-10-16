@@ -13,8 +13,8 @@ def check_password(password):
     (?!.*[.,;!\_\\\@#\/$&*\-\+\?\s])        Check that the string does not contain any special letter
     (?=.*[0-9])                             Check that the string contains at least one digit
     (?=.*[a-z])                             Check that the string contains at least one uppercase letter
-    .{6,}                                   Check that the string is at least 6 characters long.
-    $                                       End anchor.
+    .{6,}                                   Check that the string is at least 6 characters long
+    $                                       End anchor
     """
     match = re.search(r"^(?!.*[.,;!\_\\\@#\/$&*\-\+\?\s])(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{6,}$", password)
     return True if match else False
