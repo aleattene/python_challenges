@@ -2,9 +2,10 @@
 
 <p align="justify">
 
-Let us go through an example.
-You have a string (here a short one): 
-`s = "GCAGCaGCTGCgatggcggcgctgaggggtcttgggggctctaggccggccacctactgg"`, with only upper or lower cases letters A, C, G, T.
+Let us go through an example. <br/>
+You have a string (here a short one): <br/>
+`s = "GCAGCaGCTGCgatggcggcgctgaggggtcttgggggctctaggccggccacctactgg"`, <br/>
+with only upper or lower cases letters A, C, G, T.
 
 You want to find substrings in this string. <br/>
 Each substring to find has a label. <br/>
