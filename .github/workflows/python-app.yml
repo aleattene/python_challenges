@@ -51,8 +51,8 @@ jobs:
         python3 codewars/difficulty-level-7kyu/pandemia/tests.py 
         python3 codewars/difficulty-level-7kyu/password-check-binary-to-string/tests.py
         python3 codewars/difficulty-level-7kyu/tennis-game-points/tests.py 
-        ## Level 05
-        python3 codewars/difficulty-level-8kyu/return-two-highest-values-in-list/tests.py
+        ## Level 08
+        # python3 codewars/difficulty-level-8kyu/return-two-highest-values-in-list/tests.py
         python3 codewars/difficulty-level-8kyu/check-the-exam/tests.py 
         python3 codewars/difficulty-level-8kyu/hello-name-or-world/tests.py
         python3 codewars/difficulty-level-8kyu/hex-to-decimal/tests.py
