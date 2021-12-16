@@ -1,0 +1,66 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python application
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Test with unittest
+      run: |
+        # Codewars ========================================================================================
+        ## Level 01
+        ## Level 02
+        ## Level 03
+        ## Level 04
+        python3 codewars/difficulty-level-4kyu/roman-numerals-helper/tests.py
+        ## Level 05
+        python3 codewars/difficulty-level-5kyu/moving-zeros-to-the-end/tests.py 
+        # python3 codewars/difficulty-level-5kyu/positions-of-a-substring-in-a-string/tests.py
+        python3 codewars/difficulty-level-5kyu/regex-password-validation/tests.py
+        ## Level 06
+        python3 codewars/difficulty-level-6kyu/football-yellow-and-red-cards/tests.py 
+        python3 codewars/difficulty-level-6kyu/unique-in-order/tests.py
+        python3 codewars/difficulty-level-6kyu/volleyball-positions/tests.py
+        ## Level 07
+        python3 codewars/difficulty-level-7kyu/pandemia/tests.py 
+        python3 codewars/difficulty-level-7kyu/password-check-binary-to-string/tests.py
+        python3 codewars/difficulty-level-7kyu/tennis-game-points/tests.py 
+        ## Level 08
+        python3 codewars/difficulty-level-8kyu/return-two-highest-values-in-list/tests.py
+        python3 codewars/difficulty-level-8kyu/check-the-exam/tests.py 
+        python3 codewars/difficulty-level-8kyu/hello-name-or-world/tests.py
+        python3 codewars/difficulty-level-8kyu/hex-to-decimal/tests.py
+        # ==============================================================================================
+              
+        # Edibit =======================================================================================
+        python3 edibit/switch_on_the_gravity/tests.py
+        python3 edibit/hexadecimal_color_mixer/tests.py
+        # ==============================================================================================
+        
+        
