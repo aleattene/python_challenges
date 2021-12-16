@@ -1,2 +1,2 @@
-# python-codewars-challenges
-List of solved "codewars" challenges, ordered by difficulty.
+# python-challenges
+List of solved challenges (codewars and edibit).
