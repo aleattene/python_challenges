@@ -59,8 +59,9 @@ jobs:
         # ==============================================================================================
               
         # Edibit =======================================================================================
-        python3 edibit/switch_on_the_gravity/tests.py
-        python3 edibit/hexadecimal_color_mixer/tests.py
+        python3 edabit/switch_on_the_gravity/tests.py
+        python3 edabit/hexadecimal_color_mixer/tests.py
+        python3 edabit/ping_pong/tests.py
         # ==============================================================================================
         
         
