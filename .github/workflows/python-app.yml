@@ -62,6 +62,7 @@ jobs:
         python3 edabit/switch_on_the_gravity/tests.py
         python3 edabit/hexadecimal_color_mixer/tests.py
         python3 edabit/ping_pong/tests.py
+        python3 edabit/sum_of_missing_numbers/tests.py
         # ==============================================================================================
         
         
