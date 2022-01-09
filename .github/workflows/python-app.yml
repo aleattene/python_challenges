@@ -47,7 +47,7 @@ jobs:
         ## Level 06
         # python3 codewars/difficulty-level-6kyu/football-yellow-and-red-cards/tests.py
         # python3 codewars/difficulty-level-6kyu/unique-in-order/tests.py
-        python3 codewars/difficulty-level-6kyu/volleyball-positions/tests.py
+        # python3 codewars/difficulty-level-6kyu/volleyball-positions/tests.py
         ## Level 07
         # python3 codewars/difficulty-level-7kyu/pandemia/tests.py
         # python3 codewars/difficulty-level-7kyu/password-check-binary-to-string/tests.py
