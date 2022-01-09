@@ -34,36 +34,5 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-        # Codewars ========================================================================================
-        ## Level 01
-        ## Level 02
-        ## Level 03
-        ## Level 04
-        # python3 codewars/difficulty-level-4kyu/roman-numerals-helper/tests.py
-        ## Level 05
-        # python3 codewars/difficulty-level-5kyu/moving-zeros-to-the-end/tests.py
-        # python3 codewars/difficulty-level-5kyu/positions-of-a-substring-in-a-string/tests.py
-        # python3 codewars/difficulty-level-5kyu/regex-password-validation/tests.py
-        ## Level 06
-        # python3 codewars/difficulty-level-6kyu/football-yellow-and-red-cards/tests.py
-        # python3 codewars/difficulty-level-6kyu/unique-in-order/tests.py
-        # python3 codewars/difficulty-level-6kyu/volleyball-positions/tests.py
-        ## Level 07
-        # python3 codewars/difficulty-level-7kyu/pandemia/tests.py
-        # python3 codewars/difficulty-level-7kyu/password-check-binary-to-string/tests.py
-        # python3 codewars/difficulty-level-7kyu/tennis-game-points/tests.py
-        ## Level 08
-        # python3 codewars/difficulty-level-8kyu/return-two-highest-values-in-list/tests.py
-        # python3 codewars/difficulty-level-8kyu/check-the-exam/tests.py
-        # python3 codewars/difficulty-level-8kyu/hello-name-or-world/tests.py
-        # python3 codewars/difficulty-level-8kyu/hex-to-decimal/tests.py
-        # ==============================================================================================
-              
-        # Edibit =======================================================================================
-        # python3 edabit/switch_on_the_gravity/tests.py
-        # python3 edabit/hexadecimal_color_mixer/tests.py
-        # python3 edabit/ping_pong/tests.py
-        # python3 edabit/sum_of_missing_numbers/tests.py
-        # ==============================================================================================
         
         
