@@ -6,7 +6,7 @@ To start the tests, type from CLI: python test_solution_sum_of_missing_numbers.p
 import re
 
 
-def check_password(password):
+def check_password(password): 
     """
     ^                                       Start anchor
     (?=.*[A-Z])                             Check that the string contains at least one uppercase letter
