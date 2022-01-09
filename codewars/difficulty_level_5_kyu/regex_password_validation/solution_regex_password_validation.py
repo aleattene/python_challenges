@@ -6,8 +6,7 @@ To start the tests, type from CLI: python test_solution_sum_of_missing_numbers.p
 import re
 
 
-def check_password(password): 
-    """
+def check_password(password): """
     ^                                       Start anchor
     (?=.*[A-Z])                             Check that the string contains at least one uppercase letter
     (?!.*[.,;!\_\\\@#\/$&*\-\+\?\s])        Check that the string does not contain any special letter
@@ -16,6 +15,5 @@ def check_password(password):
     .{6,}                                   Check that the string is at least 6 characters long
     $                                       End anchor
     """
-    match = re.search(r"^(?!.*[.,;!\_\\\@#\/$&*\-\+\?\s])(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{6,}$", password)
+    match = re.search(r"^(?!.*[.,;!\\_\\\@#\/$&*\-\+\?\s])(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{6,}$", password)
     return True if match else False
-
