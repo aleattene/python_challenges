@@ -83,6 +83,18 @@ class MyTestCase(unittest.TestCase):
             ["#"],
             ["#"]
         ])
+        self.assertEqual(switch_gravity_on([
+            ["#"],
+            ["#"],
+            ["#"],
+            ["-"]
+        ]
+        ), [
+            ["-"],
+            ["#"],
+            ["#"],
+            ["#"]
+        ])
 
 
 if __name__ == '__main__':
