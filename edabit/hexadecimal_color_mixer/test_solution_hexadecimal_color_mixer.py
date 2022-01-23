@@ -2,7 +2,7 @@ import unittest
 from solution_hexadecimal_color_mixer import hex_color_mixer
 
 
-class MyTestCase(unittest.TestCase):
+class HexadecimalColor(unittest.TestCase):
     def test_hex_color_mixer(self):
         self.assertEqual(hex_color_mixer(["#FFFF00", "#FF0000"]), "#FF8000")
         self.assertEqual(hex_color_mixer(["#FFFF00", "#0000FF"]), "#808080")
