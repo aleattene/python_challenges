@@ -32,7 +32,7 @@ class PokemonSpecialsContest(unittest.TestCase):
         self.assertEqual(pk_special_winner(87, 65), -1)
         self.assertEqual(pk_special_winner(92, 47), 92)
         self.assertEqual(pk_special_winner(71, 66), 71)
-        self.assertEqual(pk_special_winner(9, 62), -1)
+        self.assertEqual(pk_special_winner(9, 62), 62)
         self.assertEqual(pk_special_winner(85, 17), -1)
         self.assertEqual(pk_special_winner(1, 33), 33)
         self.assertEqual(pk_special_winner(12, 13), 12)
@@ -42,7 +42,7 @@ class PokemonSpecialsContest(unittest.TestCase):
         self.assertEqual(pk_special_winner(77, 52), -1)
         self.assertEqual(pk_special_winner(19, 78), -1)
         self.assertEqual(pk_special_winner(24, 89), -1)
-        self.assertEqual(pk_special_winner(72, 99), -1)
+        self.assertEqual(pk_special_winner(72, 99), 72)
         self.assertEqual(pk_special_winner(77, 18), -1)
         self.assertEqual(pk_special_winner(25, 44), 44)
         self.assertEqual(pk_special_winner(57, 51), -1)
@@ -74,7 +74,7 @@ class PokemonSpecialsContest(unittest.TestCase):
         self.assertEqual(pk_special_winner(39, 46), -1)
         self.assertEqual(pk_special_winner(79, 20), -1)
         self.assertEqual(pk_special_winner(72, 68), 72)
-        self.assertEqual(pk_special_winner(80, 98), -1)
+        self.assertEqual(pk_special_winner(80, 98), 80)
         self.assertEqual(pk_special_winner(42, 97), 97)
         self.assertEqual(pk_special_winner(26, 19), -1)
         self.assertEqual(pk_special_winner(65, 35), -1)
@@ -88,7 +88,7 @@ class PokemonSpecialsContest(unittest.TestCase):
         self.assertEqual(pk_special_winner(11, 57), -1)
         self.assertEqual(pk_special_winner(56, 87), 56)
         self.assertEqual(pk_special_winner(33, 17), -1)
-        self.assertEqual(pk_special_winner(79, 96), -1)
+        self.assertEqual(pk_special_winner(79, 96), 79)
         self.assertEqual(pk_special_winner(33, 4), -1)
         self.assertEqual(pk_special_winner(80, 77), 80)
         self.assertEqual(pk_special_winner(52, 57), 57)
@@ -109,11 +109,3 @@ class PokemonSpecialsContest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-
-
-
-
-
-
