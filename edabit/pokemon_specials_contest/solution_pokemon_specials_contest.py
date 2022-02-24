@@ -1,4 +1,6 @@
 
+import statistics
+
 pk_data = {
     1: ["grass", "poison"], 2: ["grass", "poison"], 3: ["grass", "poison"], 4: ["fire"], 5: ["fire"],
     6: ["fire", "flying"], 7: ["water"], 8: ["water"], 9: ["water"], 10: ["bug"], 11: ["bug"], 12: ["bug", "flying"],
@@ -79,13 +81,10 @@ def fight(attributes_pk_one, attributes_pk_two):
 
 def pk_special_winner(pk1, pk2):
 
-    final_scores = {pk1: 0, pk2: 0}
-
-    result_fight_pk1_vs_pk2 = fight(pk_data[pk1], pk_data[pk2])
-    result_fight_pk2_vs_pk1 = fight(pk_data[pk2], pk_data[pk1])
-
-    final_scores[pk1] = sum(result_fight_pk1_vs_pk2) / len(result_fight_pk1_vs_pk2)
-    final_scores[pk2] = sum(result_fight_pk2_vs_pk1) / len(result_fight_pk2_vs_pk1)
+    final_scores = {
+        pk1: statistics.mean(fight(pk_data[pk1], pk_data[pk2])),
+        pk2: statistics.mean(fight(pk_data[pk2], pk_data[pk1]))
+    }
 
     return -1 if final_scores[pk1] == final_scores[pk2] else \
         [key for (key, value) in final_scores.items() if value == max(final_scores.values())][0]
