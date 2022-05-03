@@ -14,3 +14,9 @@ List of solved challenges (codewars and edabit).
 - [Return Two Highest Values in List](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_8_kyu/return_two_highest_values_in_list)
 
 
+#### Difficulty 7kyu
+- [Pandemia 🌡️](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_7_kyu/pandemia)
+- [Password Check 🔐 Binary to String](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_7_kyu/password_check_binary_to_string)
+- [Tennis Game Points 🎾](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_7_kyu/tennis_game_points#tennis-game-points-)
+
+
