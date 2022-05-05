@@ -20,3 +20,9 @@ List of solved challenges (codewars and edabit).
 - [Tennis Game Points 🎾](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_7_kyu/tennis_game_points#tennis-game-points-)
 
 
+#### Difficulty 6kyu
+- [Football ⚽ Yellow and Red Cards 📒📕](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_6kyu/football_yellow_and_red_cards)
+- [Unique in order](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_6kyu/unique_in_order)
+- [Volleyball Positions 🏐](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_6kyu/volleyball_positions)
+
+
