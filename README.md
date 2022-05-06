@@ -1,4 +1,4 @@
-# python-challenges
+# Python Challenges
 List of solved challenges (codewars and edabit).
 
 
