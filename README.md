@@ -26,3 +26,10 @@ List of solved challenges (codewars and edabit).
 - [Volleyball Positions 🏐](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_6kyu/volleyball_positions)
 
 
+#### Difficulty 5kyu
+- [Moving Zeros To The End](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_5_kyu/moving_zeros_to_the_end)
+- [Positions of a substring in a string](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_5_kyu/positions_of_a_substring_in_a_string)
+- [Regex Password Validation 🔑](https://github.com/aleattene/python_challenges/tree/main/codewars/difficulty_level_5_kyu/regex_password_validation)
+
+
+
